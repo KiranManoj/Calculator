@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div id="calculator">
+      <input type="text" id="display"/>
+      <div id="operations">
+        <button onclick="displayValue('+')">+</button>
+        <button onclick="displayValue('-')">-</button>
+        <button onclick="displayValue('*')">*</button>
+        <button onclick="displayValue('/')">/</button>
+      </div> 
+      <div id="keypad">
+        <button onclick="displayValue(7)">7</button>
+        <button onclick="displayValue(8)">8</button>
+        <button onclick="displayValue(9)">9</button>
+        <button onclick="displayValue(4)">4</button>
+        <button onclick="displayValue(5)">5</button>
+        <button onclick="displayValue(6)">6</button>
+        <button onclick="displayValue(1)">1</button>
+        <button onclick="displayValue(2)">2</button>
+        <button onclick="displayValue(3)">3</button>
+        <button onclick="displayValue(0)">0</button>
+        <button id="equals" onclick="displayValue('=')">=</button>
+      </div>
+    </div>
+  </main>
+  <script src="script.js" />
+</body>
+</html>
